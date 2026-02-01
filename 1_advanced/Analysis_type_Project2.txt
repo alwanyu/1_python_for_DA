@@ -1,0 +1,111 @@
+## Univariate Analysis
+Univariate analysis examines one variable at a time. It focuses on the distribution, central tendency, and dispersion of a single feature without 
+considering relationships with other variables.
+
+**Examples:**
+- Histograms showing the distribution of ages
+- Box plots of income values
+- Summary statistics (mean, median, mode) of a single variable
+- Frequency tables of categorical data
+
+
+## Bivariate Analysis
+Bivariate analysis examines the relationship between two variables to determine if there are associations or correlations between them.
+
+**Examples:**
+- Scatter plots showing the relationship between height and weight
+- Correlation coefficients between price and square footage
+- Cross-tabulations between gender and product preference
+- Line graphs showing changes in two variables over time
+
+## Multivariate Analysis
+Multivariate analysis examines three or more variables simultaneously to understand complex interactions and relationships within the data.
+
+**Examples:**
+- Multiple regression models with several predictors
+- Principal Component Analysis (PCA)
+- Cluster analysis using multiple features
+- Heat maps showing correlations among many variables
+
+## Feature Exploration
+Feature exploration is the process of investigating and understanding the characteristics of variables in your dataset. It involves:
+
+1. **Data profiling**: Examining data types, missing values, and basic statistics
+2. **Distribution analysis**: Understanding how values are distributed
+3. **Outlier detection**: Identifying unusual observations
+4. **Relationship discovery**: Finding connections between features
+5. **Feature importance**: Determining which variables have the most impact
+6. **Feature engineering**: Creating new variables from existing ones to improve model performance
+
+Feature exploration is typically performed early in the data analysis process to guide subsequent modeling decisions and to gain insights about the underlying data structure.
+
+## Correlation
+
+Correlation measures the statistical relationship between two variables - specifically how they change together. It indicates both the strength 
+and direction of the relationship.
+
+**Key aspects of correlation:**
+
+- **Correlation coefficient**: Typically ranges from -1 to +1
+  - +1 indicates perfect positive correlation (as one variable increases, the other increases proportionally)
+  - 0 indicates no correlation (variables move independently)
+  - -1 indicates perfect negative correlation (as one variable increases, the other decreases proportionally)
+
+- **Types of correlation measures:**
+  - Pearson correlation: Measures linear relationships
+  - Spearman correlation: Measures monotonic relationships (direction matters, not magnitude)
+  - Kendall's tau: Another rank correlation measure, robust to outliers
+
+- **Important considerations:**
+  - Correlation does not imply causation
+  - Correlation only captures linear or monotonic relationships
+  - Outliers can significantly impact correlation values
+
+## Trend Detection
+
+Trend detection involves identifying patterns, consistent behaviors, or directions in data, particularly in time series data.
+
+**Key aspects of trend detection:**
+
+- **Types of trends:**
+  - Upward/downward trends: Consistent increase or decrease over time
+  - Cyclical trends: Patterns that repeat over non-fixed intervals
+  - Seasonal trends: Patterns that repeat at fixed intervals (daily, weekly, yearly)
+  - Random fluctuations: No discernible pattern
+
+- **Trend detection methods:**
+  - Moving averages: Smoothing data to reveal underlying trends
+  - Regression analysis: Fitting lines or curves to identify direction
+  - Decomposition: Separating time series into trend, seasonal, and residual components
+  - Mann-Kendall test: Statistical test for monotonic trends in time series
+
+- **Applications:**
+  - Market analysis and forecasting
+  - Climate data analysis
+  - Social media sentiment tracking
+  - Disease outbreak monitoring
+  - Economic indicator analysis
+
+Both correlation analysis and trend detection are fundamental techniques in exploratory data analysis that help analysts understand relationships and patterns in data before building predictive models.
+
+
+*****************************************************************************************************************
+      
+Project 2
+Use the US flights dataset to conduct EDA (Exploratory data analysis) 
+https://drive.google.com/file/d/1MW9rbiXF-1CYc9NXpY0NM8TbKVe3nqd6/view?usp=sharing
+
+DO the following tasks
+
+•	Univariate, bivariate, multivariate analysis
+•	Correlation analysis
+•	Trend detection
+•	Feature exploration
+•	Presenting insights
+
+Submission Format
+Please add your full name/date/title of the project                                                                         
+Submit all requested tasks(code and output) python notebook
+                                                                          
+Show your approach step by step - justfy your decision
+Provide the interpetation and insights drawn
